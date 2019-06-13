@@ -30,7 +30,6 @@ window.addEventListener('DOMContentLoaded', function() {
             slider_items[index.ind].classList.add('hidden');
             index.ind < slider_items.length - 1 ? index.upper() : index.ind = 0; 
             resolve();
-            return promise; 
           }, 200)                  
         });
           promise.then(() => {
